@@ -13,7 +13,7 @@ static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
 static const char col_yellow[]		= "#ffb61a";
-static const char col_red[]			= "#ff471a";
+static const char col_red[]		= "#ff471a";
 static const char col_green[]		= "#33cc33";
 static const char col_white[]		= "#ffffff";
 static const char col_black[]		= "#000000";
@@ -91,8 +91,8 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-	{ MODKEY,						XK_n,	   shiftview,	   {.i = +1 } },
-	{ MODKEY,						XK_b,	   shiftview,	   {.i = -1 } },
+	{ MODKEY,			XK_n,	   shiftview,	   {.i = +1 } },
+	{ MODKEY,			XK_b,	   shiftview,	   {.i = -1 } },
 
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
